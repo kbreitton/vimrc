@@ -1,3 +1,14 @@
+" *******TIPS**********
+" :%s/foo/bar/g "search and replace 'foo' with 'bar' in all instances in all lines
+" :s/foo/bar/g  "search and replace all instances in current line
+" :%s/foo/bar/gc "ask for confirmation
+" :%s/foo/bar/gci "case insensitive
+" :%s/foo/bar/gcI "case sensitive
+
+" Ctrl-O to jump to previous location
+" Ctrl-I to jump to next location
+" :jumps to see jump list
+"
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
